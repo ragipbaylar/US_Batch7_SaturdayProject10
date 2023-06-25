@@ -64,4 +64,10 @@ public class User {
         this.cart.getCartProducts().remove(product);
         this.cart.setTotal(-product.getPrice());
     }
+
+    public static void deneme2(){
+        for (int i = 0; i < 10; i++) {
+            System.out.println("hello");
+        }
+    }
 }
