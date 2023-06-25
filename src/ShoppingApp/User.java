@@ -64,8 +64,4 @@ public class User {
         this.cart.getCartProducts().remove(product);
         this.cart.setTotal(-product.getPrice());
     }
-
-    public void deneme1(){
-        System.out.println("benden bu kadar");
-    }
 }
